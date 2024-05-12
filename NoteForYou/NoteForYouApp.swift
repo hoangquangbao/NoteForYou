@@ -11,7 +11,7 @@ import SwiftUI
 struct NoteForYouApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TopScreen()
         }
     }
 }
