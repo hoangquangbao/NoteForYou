@@ -19,32 +19,32 @@ struct BGGradient: View {
     var body: some View {
         GeometryReader(content: { geometry in
             ZStack {
-                Image(systemName: "octagon.fill").resizable()
-                    .renderingMode(.template)
+                Image(systemName: "octagon.fill")
+                    .resizable()
+                    .foregroundStyle(shape1)
                     .frame(width: 200, height: 200)
                     .offset(x: -200, y: -300)
-                    .foregroundStyle(shape1)
                 
-                Image(systemName: "triangle.fill").resizable()
-                    .renderingMode(.template)
+                Image(systemName: "triangle.fill")
+                    .resizable()
                     .frame(width: 500, height: 300)
                     .offset(x: 200, y: -200)
                 .foregroundStyle(shape2)
                 
-                Image(systemName: "diamond.fill").resizable()
-                    .renderingMode(.template)
+                Image(systemName: "diamond.fill")
+                    .resizable()
                     .frame(width: 200, height: 200)
                     .offset(x: 40, y: 0)
                     .foregroundStyle(shape3)
                 
-                Image(systemName: "seal.fill").resizable()
-                    .renderingMode(.template)
+                Image(systemName: "seal.fill")
+                    .resizable()
                     .frame(width: 300, height: 400)
                     .offset(x: 200, y: 150)
                     .foregroundStyle(shape4)
                 
-                Image(systemName: "seal.fill").resizable()
-                    .renderingMode(.template)
+                Image(systemName: "seal.fill")
+                    .resizable()
                     .frame(width: 200, height: 200)
                     .offset(x: -150, y: 200)
                     .foregroundStyle(shape5)
@@ -58,6 +58,7 @@ struct BGGradient: View {
                         shape2 = shuffledColors[1]
                         shape3 = shuffledColors[2]
                         shape4 = shuffledColors[3]
+                        shape5 = shuffledColors[4]
                     }
                 }
             })

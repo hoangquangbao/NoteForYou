@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29A7F1482C71FC260064CF43 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A7F1472C71FC260064CF43 /* OnboardingView.swift */; };
+		29A7F14A2C720B510064CF43 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A7F1492C720B510064CF43 /* HomeView.swift */; };
 		29C4EB362BF0719100C9B17F /* BGGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C4EB352BF0719100C9B17F /* BGGradient.swift */; };
 		29C4EB3A2BF085B900C9B17F /* TopScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C4EB392BF085B900C9B17F /* TopScreen.swift */; };
 		29ED1ABA2BDD134300D360C3 /* NoteForYouApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ED1AB92BDD134300D360C3 /* NoteForYouApp.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29A7F1472C71FC260064CF43 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		29A7F1492C720B510064CF43 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		29C4EB352BF0719100C9B17F /* BGGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BGGradient.swift; sourceTree = "<group>"; };
 		29C4EB392BF085B900C9B17F /* TopScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopScreen.swift; sourceTree = "<group>"; };
 		29ED1AB62BDD134300D360C3 /* NoteForYou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteForYou.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,7 +62,9 @@
 				29ED1AB92BDD134300D360C3 /* NoteForYouApp.swift */,
 				29ED1ABB2BDD134300D360C3 /* ContentView.swift */,
 				29C4EB352BF0719100C9B17F /* BGGradient.swift */,
+				29A7F1472C71FC260064CF43 /* OnboardingView.swift */,
 				29C4EB392BF085B900C9B17F /* TopScreen.swift */,
+				29A7F1492C720B510064CF43 /* HomeView.swift */,
 				29ED1ABD2BDD134400D360C3 /* Assets.xcassets */,
 				29ED1ABF2BDD134400D360C3 /* Preview Content */,
 			);
@@ -146,6 +152,8 @@
 				29C4EB362BF0719100C9B17F /* BGGradient.swift in Sources */,
 				29C4EB3A2BF085B900C9B17F /* TopScreen.swift in Sources */,
 				29ED1ABC2BDD134300D360C3 /* ContentView.swift in Sources */,
+				29A7F14A2C720B510064CF43 /* HomeView.swift in Sources */,
+				29A7F1482C71FC260064CF43 /* OnboardingView.swift in Sources */,
 				29ED1ABA2BDD134300D360C3 /* NoteForYouApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
