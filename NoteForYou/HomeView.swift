@@ -1,18 +1,18 @@
 //
-//  BGGradient.swift
+//  HomeView.swift
 //  NoteForYou
 //
-//  Created by Bao Hoang on 12/5/24.
+//  Created by Bao Hoang on 18/8/24.
 //
 
 import SwiftUI
 
-struct BGGradient: View {
+struct HomeView: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
 #Preview {
-    BGGradient()
+    HomeView()
 }
