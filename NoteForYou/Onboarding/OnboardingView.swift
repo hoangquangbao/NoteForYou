@@ -17,6 +17,11 @@ struct OnboardingView: View {
     @State var currentView: Int = 0
     var body: some View {
         ZStack(content: {
+            if currentView < 3 {
+                BGGradient()
+                    .transition(.opacity)
+            }
+            
             switch currentView {
             case 0:
                 TopScreen(image: .note, title: "Sticky Note", detels: "You can choose one of five different stickers in shape color to suit your tasks", currentView: $currentView)
@@ -26,6 +31,8 @@ struct OnboardingView: View {
                 TopScreen(image: .note02, title: "Tracking", detels: "Track the progress of tasks and tasks that have been completed and remain", currentView: $currentView)
             default:
                 HomeView()
+                //Re-check here
+                    .transition(.asymmetric(insertion: .move(edge: .trailing), removal: .move(edge: .leading)))
             }
         })
     }

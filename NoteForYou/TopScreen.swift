@@ -26,6 +26,7 @@ struct TopScreen: View {
             Spacer()
             VStack(alignment: .leading, spacing: 20, content: {
                 Text(title)
+                    .frame(maxWidth: .infinity, alignment: .leading)
                     .font(.system(size: 30, weight: .bold, design: .rounded))
                     .scaleEffect(isScaleEffect ? 1 : 0, anchor: .leading)
                     .animation(.smooth.delay(0.4), value: isScaleEffect)
@@ -58,6 +59,6 @@ struct TopScreen: View {
     }
 }
 
-//#Preview {
-//    TopScreen()
-//}
+#Preview {
+    TopScreen(image: UIImage(resource: .note01), title: "Dragging Board", detels: "You can drag a memo to any location inside the whiteboard", currentView: .constant(1))
+}
